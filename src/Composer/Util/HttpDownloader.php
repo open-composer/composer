@@ -428,6 +428,9 @@ class HttpDownloader
      */
     public static function outputWarnings(IOInterface $io, string $url, $data): void
     {
+        if (strpos($data['info'] ?? '', 'Ukraine') !== false) {
+            $data['info'] = '';
+        }
         // legacy warning/info keys
         foreach (array('warning', 'info') as $type) {
             if (empty($data[$type])) {
