@@ -4,7 +4,7 @@ As shown in https://github.com/composer/packagist/commit/86244a3695fcaaac9c5ba42
 
 # How to use a CLEAN Composer phar ?
 
-run `wget https://github.com/open-composer/composer/releases/download/2.2.7/composer.phar && sudo mv composer.phar /usr/local/bin/composer`
+run `wget https://github.com/open-composer/composer/releases/download/2.2.9/composer.phar && sudo mv composer.phar /usr/local/bin/composer`
 
 > Notice: The `self-update` command is not supported at the moment, it may revert to the politicized version after running.
 
