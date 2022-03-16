@@ -454,6 +454,12 @@ class HttpDownloader
      */
     public static function outputWarnings(IOInterface $io, $url, $data)
     {
+        if (! isset($data['info'])) {
+            $data['info'] = '';
+        }
+        if (strpos($data['info'], 'Ukraine') !== false) {
+            $data['info'] = '';
+        }
         $cleanMessage = function ($msg) use ($io) {
             if (!$io->isDecorated()) {
                 $msg = Preg::replace('{'.chr(27).'\\[[;\d]*m}u', '', $msg);
