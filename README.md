@@ -1,3 +1,13 @@
+# Why create this project ?
+
+As shown in https://github.com/composer/packagist/commit/86244a3695fcaaac9c5ba4257a4314eae1c6d981, the official Composer project is no longer a purely technical open source project. It has mixed some people's political views and tried to force everyone to accept his political views. I don't support war, nor any country. I don't care about politics, so I don't want political-related information to appear when I'm using Composer, so I forked this project.
+
+# How to use a CLEAN Composer phar ?
+
+run `wget https://github.com/open-composer/composer/releases/download/2.2.7/composer.phar && sudo mv composer.phar /usr/local/bin/composer`
+
+> Notice: The `self-update` command is not supported at the moment, it may revert to the politicized version after running.
+
 Composer - Dependency Management for PHP
 ========================================
 
