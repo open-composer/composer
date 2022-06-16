@@ -32,14 +32,28 @@ Find packages on [Packagist](https://packagist.org).
 Community
 ---------
 
-Follow [@packagist](https://twitter.com/packagist) or [@seldaek](https://twitter.com/seldaek) on Twitter for announcements, or check the [#composerphp](https://twitter.com/search?q=%23composerphp&src=typed_query&f=live) hashtag.
-
 For support, Stack Overflow offers a good collection of
 [Composer related questions](https://stackoverflow.com/questions/tagged/composer-php), or you can use the [GitHub discussions](https://github.com/composer/composer/discussions).
 
 Please note that this project is released with a
 [Contributor Code of Conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
 By participating in this project and its community you agree to abide by those terms.
+
+Contributing
+------------
+
+All valuable PRs welcome!
+
+PRs must be presented for a technical reason, not a political one. If
+a PR is too controversial (technical or otherwise), there tends to be better ways to solve the problem.
+Sometimes no action is the best action in these situations until someone brainstorms a better idea. Consider
+creating an issue for discussion in these cases. This goes hand in hand with our Code of Conduct
+and we should strive to position our code in an inclusive manner.
+
+Tips for successful PR engagement:
+1. Explain the problem you are solving.
+2. Explain how it impacts a wider audience.
+3. Explain your thought process behind your solution.
 
 Requirements
 ------------
